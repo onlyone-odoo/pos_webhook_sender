@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_send_pos_to_webhook" model="base.automation">
+        <field name="name">Enviar POS Order al Webhook</field>
+        <field name="model_id" ref="point_of_sale.model_pos_order"/>
+        <field name="state">code</field>
+        <field name="trigger">on_create</field>
+        <field name="code">
+            records.send_to_webhook()
+        </field>
+    </record>
+</odoo>
