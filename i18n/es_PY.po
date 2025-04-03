@@ -1,0 +1,15 @@
+# TODO 
+#msgid "Webhook not sent: customer has no mobile number."
+#msgstr "No se envía al webhook: cliente sin número móvil."
+
+#msgid "Customer without name"
+#msgstr "Cliente sin nombre"
+
+#msgid "No POS config"
+#msgstr "Sin caja"
+
+#msgid "Data successfully sent to webhook."
+#msgstr "Datos enviados al webhook con éxito."
+
+#msgid "Error sending to webhook: %s"
+#msgstr "Error enviando al webhook: %s"
